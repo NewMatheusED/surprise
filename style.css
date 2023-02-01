@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 2%;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+}
+
+.login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 50px 2%;
+    background-image: linear-gradient(45deg,#C2D2F2, #F2B56B)
+}
+
+.login h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.login h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.login form {
+    display: flex;
+    justify-content: center;
+}
+
+.login form input[type="password"] {
+    border: none;
+    padding: 7px;
+}
+
+.login form input[type="submit"] {
+    border: none;
+    padding: 7px;
+    margin-left: -3px;
+}
+
+.login span.submitRes {
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.login p.link {
+    position: relative;
+    top: 40px;
+    display: none;
+} 
